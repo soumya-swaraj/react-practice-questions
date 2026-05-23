@@ -1,0 +1,11 @@
+.timerActionContiner {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timerActionContiner > button {
+  height: 40px;
+  padding: 0px 30px;
+}

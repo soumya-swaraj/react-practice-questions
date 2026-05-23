@@ -1,0 +1,25 @@
+.timerInputContainer {
+    display: flex;
+    font-size: 50px;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .timerInputContainer > input {
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .timerInputContainer > input:disabled {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .timerInputContainer > span {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+  }

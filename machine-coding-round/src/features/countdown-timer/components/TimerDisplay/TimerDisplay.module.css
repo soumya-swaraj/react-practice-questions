@@ -1,0 +1,23 @@
+.timerValueContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timerValueContainer > span.timerValues {
+    font-size: 100px;
+}
+
+.timerValueContainer > span.timerColon {
+    font-size: 85px;
+}
+
+.blinkingTimerColon {
+    animation: blinking 1000ms infinite;
+}
+
+@keyframes blinking {
+    0% { opacity: 1}
+    50% { opacity: 0}
+    100% { opacity: 1}
+}
